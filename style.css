@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 20px 15px;
+    vertical-align: bottom;
+}
+
+.image > img {
+    width: 120px;
+    height: 30px;
+}
+
+.try {
+    font-size: 15px;
+    color: hsl(0, 100%, 63%);
+    border: 2px solid hsl(0, 100%, 63%);
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.build {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.first-para {
+    font-size: 15px;
+    margin-bottom: 30px;
+    padding: 5px 20px;
+}
+
+button {
+    background-color:  hsl(322, 100%, 66%);
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 2px 5px 2px #ccc;
+    margin-bottom: 50px;
+}
+
+.image1 > img {
+    width: 270px;
+    margin-bottom: 170px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.text-1 {
+    position: relative;
+}
+
+.pic {
+    position: absolute;
+    left: 10px;
+    top: -50px;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(192, 100%, 9%);
+}
+
+.text-2 {
+    margin-top: 200px; 
+    position: relative;
+}
+
+.pic-1 {
+    margin-top: 100px;
+    position: absolute;
+    left: 10px;
+    top: -150px;
+}
+
+p {
+    font-size: 12px;
+}
+
+.grow, .flow, .users {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 600;
+    color: hsl(192, 100%, 9%);
+}
+
+.heading {
+    margin: 0px auto;
+}
+
+.image2 > img, .image3 > img, .image4 > img  {
+    width: 300px;
+    margin-top: 100px;
+}
+
+h3 {
+    margin-top: 50px;
+    color:  hsl(192, 100%, 9%);
+    font-family: 'Poppins', sans-serif;
+}
+
+.second-para {
+    font-size: 15px;
+    padding: 5px 10px;
+}
+
+.ready {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+h2 {
+    margin: 0px 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-size: 15px;
+    padding: 5px 10px;
+}
+
+form {
+    padding: 0;
+    margin: 0;
+}
+
+input {
+    margin: 20px auto;
+    border-radius: 7px;
+    padding: 20px 30px;
+    width: 100%;
+    border: 2px solid #000;
+}
+
+#button {
+    background-color:  hsl(322, 100%, 66%);
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    box-shadow: none;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.image5 > img {
+    width: 200px;
+    color: #fff;
+}
+
+.huddle {
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    position: relative;
+    padding: 10px 23px;
+}
+
+section i {
+    font-size: 25px;
+}
+
+section p {
+    position: absolute;
+    top: 5px;
+    left: 50px;
+}
+
+.attribution { 
+    font-size: 13px; 
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 1024px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .image > img {
+        width: 320px;
+        height: 60px;
+    }
+    
+    .try {
+        font-size: 38px;
+        color:hsl(0, 100%, 63%);
+        border: 2px solid hsl(0, 100%, 63%);
+        border-radius: 20px;
+        padding: 5px 20px;
+    }
+
+    .build {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 150px;
+        text-align: center;
+    }
+    
+    h3 {
+        font-size: 45px;
+        margin-bottom: 30px;
+       font-family: 'Poppins', sans-serif;
+    }
+    
+    .first-para {
+        font-size: 35px;
+        margin-bottom: 30px;
+        padding: 5px 10px;
+    }
+
+    button {
+        font-size: 30px;
+        padding: 25px 40px;
+    } 
+
+    .image1 > img {
+        width: 870px;
+    }
+
+    .text {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .text-1 {
+        display: flex;
+    }
+    
+    .pic {
+        position: absolute;
+        left: 10px;
+        top: -50px;
+    }
+    
+    h1 {
+        font-size: 60px;
+       font-family: 'Poppins', sans-serif;
+    }
+    
+    .text-2 {
+        display: flex;
+        margin-top: 200px; 
+    }
+    
+    .pic-1 {
+        margin-top: 100px;
+        position: absolute;
+        left: 10px;
+        top: -150px;
+    }
+    
+    .text {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .pic > img, .pic-1 > img  {
+        width: 100px;
+    }
+    
+    .pic {
+        position: absolute;
+        left: 15px;
+        top: -70px;
+    }
+
+    .pic-1 {
+        position: absolute;
+        left: 15px;
+        top: -180px;
+    }
+    
+    h1 {
+        font-size: 120px;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .text-2 {
+        margin-top: 200px; 
+        position: relative;
+    }
+
+    p {
+        font-size: 12px;
+    }
+    
+    .grow {
+        display: flex;
+        width: 100%;
+    }
+
+    section {
+        width: 50%;
+    }
+
+    .image2, .image3, .image4, .image5 {
+        width: 50%;
+    }
+    
+    .image2 > img, .image3 > img, .image4 > img  {
+        width: 200px;
+        margin-top: 100px;
+    }
+    
+    h3 {
+        font-family: 'Poppins', sans-serif;
+        margin-top: 50px;
+        color:  hsl(192, 100%, 9%);
+    }
+    
+    .second-para {
+        font-size: 30px;
+        padding: 10px 15px;
+    }
+
+    p {
+        font-size: 22px;
+        padding: 5px 10px;
+    }
+    
+    #button {
+        background-color:  hsl(322, 100%, 66%);
+        padding: 15px 30px;
+        border-radius: 10px;
+        font-size: 28px;
+        box-shadow: none;
+        border-radius: 5px;
+        width: 50%;
+    }
+    
+    .huddle {
+        padding: 10px 20px;
+    }
+
+    section {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        padding: 10px 23px;
+    }
+    
+    section i {
+        font-size: 25px;
+    }
+    
+    section p {
+        position: absolute;
+        top: 5px;
+        left: 50px;
+    }
+}  
+
+
+@media (min-width: 768px) {
+    nav {
+        display: flex;
+        justify-content: space-around;
+        box-sizing: border-box;
+        padding: 20px 15px;
+        vertical-align: bottom;
+    }
+
+    .try {
+        font-size: 35px;
+        color: hsl(0, 100%, 63%);
+        border: 2px solid hsl(0, 100%, 63%);
+        padding: 5px 20px;
+    }
+
+    h3 {
+        font-size: 50px;
+        font-family: 'Poppins', sans-serif;
+        margin-bottom: 30px;
+    }
+
+    .first-para {
+        font-size: 22px;
+        padding: 10px 15px;
+    }
+
+    .image1 > img {
+        width: 650px;
+    }
+
+    .second-para {
+        font-size: 20px;
+        padding: 10px 15px;
+    }
+}
